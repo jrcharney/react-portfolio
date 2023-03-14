@@ -1,0 +1,84 @@
+/* File: assets/css/navbar.css
+ * Info: The nav element and .navmenu stuff
+ */
+
+/* TODO: nav and .navmenu need a hamburger menu */
+nav {
+    background-color: #111;
+    height: 2em;
+    margin-top: 0;
+    padding: 3px;
+    overflow: hidden;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 5%;
+    width: 90%;
+}
+
+/* When .sticky exists, move main closer to the header */
+.sticky + main { padding-top: 3px; }
+
+.navmenu {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* TODO: Make this RWD */
+.navmenu > ul {
+    height: 2em;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+.navmenu > ul > li {
+    display: block;
+    list-style-type: none;
+    float:left;
+    height: 2em;
+    min-width: 10em;
+    /* vertical-align: middle; */
+    text-align: center;
+    padding-top: 0.5em;
+    margin-left: 0;
+}
+
+/* TODO: Add an animation when enabled */
+/* TODO: Why couldn't we put visibile here? */
+.navmenu > ul > li:last-child {
+    float: right;
+}
+
+.navmenu > ul > li:hover {
+    background-color: var(--link);
+    transition: background-color 0.5s ease;
+}
+.navmenu > ul > li > a[href]:link {
+    color: #efefef;
+}
+.navmenu > ul > li > a[href]:visited {
+    color: #dedede;
+}
+.navmenu > ul > li > a[href]:active {
+    color: #ffffff;
+}
+.navmenu > ul > li > a[href]:hover {
+    color: #ffffff;
+}
+.navmenu > ul > li:hover > a[href]:link {
+    color: #efefef;
+}
+.navmenu > ul > li:hover > a[href]:visited {
+    color: #dedede;
+}
+.navmenu > ul > li:hover > a[href]:active {
+    color: #ffffff;
+}
+.navmenu > ul > li:hover > a[href]:hover {
+    color: #ffffff;
+}

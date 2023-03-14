@@ -1,0 +1,41 @@
+/* File: assets/css/queries.css
+ * Info: set up media query specific CSS here.
+ */
+
+/* SCREEN SIZES 
+ * Small phone:         320px
+ * Medium phone:        375px
+ * Large phone:         425px
+ * Tablet (portrait):   768px
+ * Tablet (landscape):  1024px
+ * HD Computer screen:  1024px
+ * HDR Computer Screen: 1440px
+ * 4K Screen:           2560px
+*/
+
+/* Computer */
+@media screen and (min-width: 768px ) {
+    header, nav, main, footer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }        
+}
+
+/* Tablet */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    header, nav, main, footer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }    
+}
+
+/* Large Phone */
+@media screen and (max-width: 425px) {
+    header, nav, main, footer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }    
+}

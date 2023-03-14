@@ -1,0 +1,98 @@
+/* File: assets/css/global.css
+ * Info: CSS styles that apply to everything
+ * Reminder: Indenting matters!
+ */
+
+/* CSS variables 
+ * Some good news: Globally declared variables can be passed to other files that use them, so we don't have to redeclare them.
+ */
+:root {
+    --bsh: 3px 3px 5px #222;
+    --tsh: #222 3px 3px 5px; 
+    --link: #C80;
+    --visited: #B70;
+    --active: #D90;
+    --hover: #EA0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+a[href]:link {
+    color: var(--link);
+    transition: color 0.5s ease;
+}
+a[href]:visited {
+    color: var(--visited);
+    transition: color 0.5s ease;
+}
+a[href]:active {
+    color: var(--active);
+    transition: color 0.5s ease;
+}
+a[href]:hover {
+    color: var(--hover);
+}
+
+summary {
+    cursor: pointer;
+}
+
+/* I was under the impression that by using a defintion list (dl), the defintion terms (dt) would be bold. Apparently, I was wrong about that. This should fix it. */
+dt {
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    text-shadow: var(--tsh);
+}
+
+blockquote {
+    width: 80%;
+    border-left: 3px solid #D90;
+    background-color: #A60;
+    padding: 3px;
+    box-shadow: var(--bsh);
+}
+
+/* Adding a ribbon */
+.ribbon {
+    position: absolute; /* fixed; */
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1px;
+    background-color: #D90;
+    color: #f0f0f0;
+    box-shadow: -5px 5px 3px rgba(0,0,0,.3);
+    width: 300px;
+    top: 55px;
+    right: -70px;
+    left: auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+  
+.ribbon a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.ribbon a[href]:link{
+    color: #000;
+}
+.ribbon a[href]:visited{
+    color: #000;
+}
+.ribbon a[href]:active{
+    color: #333;
+}
+.ribbon a[href]:hover{
+    color: #333;
+}
