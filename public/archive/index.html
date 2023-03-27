@@ -1,159 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootcamp Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <script defer src="assets/js/script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="ribbon">
-        <a href="https://github.com/jrcharney/bootcamp-portfolio">Fork on Github</a>
+      <a href="https://github.com/jrcharney/bootcamp-portfolio"
+        >Fork on Github</a
+      >
     </div>
     <header id="top">
-        <!-- We need an ID here so that we can jump back up to the top -->
-        <img src="assets/images/my_killer_robot.jpg" alt="pfp" width="100" height="100">
-        <h1>Jason Charney</h1>
+      <!-- We need an ID here so that we can jump back up to the top -->
+      <img
+        src="assets/images/my_killer_robot.jpg"
+        alt="pfp"
+        width="100"
+        height="100"
+      />
+      <h1>Jason Charney</h1>
     </header>
     <!-- Let's put the nav up here such that it resizes when we scroll down -->
     <nav>
-        <!-- TODO: text here? -->
-        <section class="navmenu">
-            <!-- Links to our sections in the main -->
-            <ul>
-                <!-- <li><a href="#top">Home</a></li> -->
-                <li><a href="#about" title="Who am I?">About Me</a></li>
-                <li><a href="#work" title="What have I done?">Previous Work</a></li>
-                <li><a href="#contact" title="Where can you reach me?">Get in Touch</a></li>
-                <!--<li></li>-->
-                <li style="visibility: hidden;"><a href="#top" title="return to the top">&#129093;</a></li>
-            </ul>
-            <div style="clear:both;"></div>
-        </section>
+      <!-- TODO: text here? -->
+      <section class="navmenu">
+        <!-- Links to our sections in the main -->
+        <ul>
+          <!-- <li><a href="#top">Home</a></li> -->
+          <li><a href="#about" title="Who am I?">About Me</a></li>
+          <li><a href="#work" title="What have I done?">Previous Work</a></li>
+          <li>
+            <a href="#contact" title="Where can you reach me?">Get in Touch</a>
+          </li>
+          <!--<li></li>-->
+          <li style="visibility: hidden">
+            <a href="#top" title="return to the top">&#129093;</a>
+          </li>
+        </ul>
+        <div style="clear: both"></div>
+      </section>
     </nav>
     <main>
-        <section id="about" class="card">
-            <h2>About Me</h2>
-            <p>What else can I say about myself? I am a web developer/programmer/computer nerd.</p>
-            <p>The only reason I haven't been hired is because I know what the going pay rate is for the job, I see how employers flinch when I tell them how much it will cost to do things, and I watch as projects die when I ask them to provide me media assets (videos, pictures, even written content) that they need to make their website a reality but never do it. Yet somehow the position turns from "web developer" into "social media manager" as if I'm going to spend my ever waking hour updating their social media profile when Facebook has a flawless interface that they should be able to use.</p>
-            <p>My point is, you just can't simply hire a computer jockey, expect them to write a website without providing adequate content to put on it. Also, employers need to stop trying to con web developerss into being an independent contractors, or string out the job indefintely by making them a "social media manager", and expect them to paid in gratitude.</p>
-            <p>If It were up to me, web developers would have unionized back in the late 1990s, eschewed independent contracting and "the gig economy", and preserved search engine website from being taken over by bumbling corporate executives and hegemonic billionaires who've eliminated any diversity and fair competition in this industry.</p>
-            <p>This would also squash any accusations of political bias claiming "Big Tech is trying to silence us" when <a href="https://www.kxan.com/news/texas-politics/do-facebook-and-twitter-silence-conservatives-data-shows-they-actually-dominate/">the data proves that to be patently false</a>, <a href="https://www.axios.com/2021/02/01/nyu-conservative-claims-tech-bias-disinformation">a form of disinformation</a>, and <a href="https://www.cartercenter.org/resources/pdfs/news/peace_publications/democracy/the-big-lie-and-big-tech.pdf">part of "The Big Lie"</a>. Frankly, the problem isn't that the people who claim "Big Tech is trying to censor us", but that their policies just suck, everyone is sick of their crap, and it is being tuned out because nobody wants it.</p><p><strong>The search engines are doing what they are designed to do: putting the results that are in high demand on top and the ones that people aren't interested in down at the bottom.</strong>  And if their <em>promoted</em> "content" (advertisements) isn't being clicked on, despite the billions of dollars being spent to try and influence people, its because nobody is interested in that too.</p>
-            <p>There needs to be a major attitude adjustment and the infantile people whose greed is not satisfied with having the majority of the influence need to be replace with responsible mature adults.</p>
-            <p>So quit making excuses for not hiring people either because of costs or the polluted political atmosphere, and hire them for what they are worth!</p>
-        </section>
-        <section id="work" class="card">
-            <h2>My Previous Work</h2>
-            <blockquote><strong>Note:</strong> I haven't deployed a whole lot of stuff yet, but as this course progresses, some of the older stuff will be replaced with the newer stuff that should be deployed on my Github pages.</blockquote>
-            <!-- TODO: I wonder if I should use some of my Codepen demos?  -->
-            <!-- TODO: What if I used a JSON file? -->
-            <div class="gallery">
-                <div class="project">
-                    <figure>
-                        <a href="https://masonmo25.github.io/Night-Out/"><img src="assets/images/Night_Out.jpg" alt="Night Out" class="thumb"></a>
-                        <figcaption><a href="https://masonmo25.github.io/Night-Out/">Night Out</a></figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <a href="https://jrcharney.github.io/the-weather-dashboard/"><img src="assets/images/The_Weather_Dashboard.png" alt="The Weather Dashboard" class="thumb"></a>
-                        <figcaption><a href="https://jrcharney.github.io/the-weather-dashboard/">The Weather Dashboard</a></figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <a href="https://jrcharney.github.io/password-generator/"><img src="assets/images/password_generator.png" alt="Password Generator" class="thumb"></a>
-                        <figcaption><a href="https://jrcharney.github.io/password-generator/">Password Generator</a></figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <a href="https://github.com/jrcharney/ArchWSLPlusPlus"><img src="assets/images/ArchWSL.png" alt="ArchWSL++" class="thumb"></a>
-                        <figcaption><a href="https://github.com/jrcharney/ArchWSLPlusPlus">ArchWSL++</a></figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <a href="https://github.com/jrcharney/hacktop"><img src="assets/images/hacktop.jpg" alt="Hacktop" class="thumb"></a>
-                        <figcaption><a href="https://github.com/jrcharney/hacktop">Hacktop</a></figcaption>
-                    </figure>
-                </div>
-                <!-- I haven't deployed too many projects yet, so have some Java projects -->
-                <div class="project">
-                    <figure>
-                        <a href="https://github.com/jrcharney/java-web-development"><img src="assets/images/java.jpg" alt="Java" class="thumb"></a>
-                        <figcaption><a href="https://github.com/jrcharney/java-web-development">Java Web Development</a></figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <a href="https://github.com/jrcharney/java-web-dev-techjobs-mvc"><img src="assets/images/java.jpg" alt="Java" class="thumb"></a>
-                        <figcaption><a href="https://github.com/jrcharney/java-web-dev-techjobs-mvc">Tech Jobs: <abbr title="Model-View-Control">MVC</abbr></a></figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <a href="https://github.com/jrcharney/java-web-dev-techjobs-authentication"><img src="assets/images/java.jpg" alt="Java" class="thumb"></a>
-                        <figcaption><a href="https://github.com/jrcharney/java-web-dev-techjobs-authentication">Tech Jobs: Authentication</a></figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <a href="https://github.com/jrcharney/java-web-dev-techjobs-oo"><img src="assets/images/java.jpg" alt="Java" class="thumb"></a>
-                        <figcaption><a href="https://github.com/jrcharney/java-web-dev-techjobs-oo">Tech Jobs: <abbr title="Object Oriented">OO</abbr></a></figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <a href="https://github.com/jrcharney/java-web-dev-techjobs-persistent"><img src="assets/images/java.jpg" alt="Java" class="thumb"></a>
-                        <figcaption><a href="https://github.com/jrcharney/java-web-dev-techjobs-persistent">Tech Jobs: Persistent</a></figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <a href="https://github.com/jrcharney/techjobs-console-java"><img src="assets/images/java.jpg" alt="Java" class="thumb"></a>
-                        <figcaption><a href="https://github.com/jrcharney/techjobs-console-java">Tech Jobs: Console</a></figcaption>
-                    </figure>
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="card">
-            <h2>Get in Touch</h2>
-            <p>I generally do not post my e-mail directly on my sites for security reasons. However, you can reach out to me via social media.</p>
-            <!-- TODO: Should I consider thumbnails for these links too? -->
-            <dl>
-                <dt><a href="https://www.jrcharney.com/">JRCharney.com</a></dt>
-                <dd>My personal homepage. It hasn't been updated in a while.</dd>
-                <dt><a href="https://jrcharney.github.io">JRCharney.Github.io</a></dt>
-                <dd>My Github Pages Site, currently being reoganized.</dd>
-                <dt><a href="https://github.com/jrcharney">Github - JRCharney</a></dt>
-                <dd>My Github Profile, probably a better place to see my previous work.</dd>
-                <dt><a href="https://codepen.io/jrcharney">Codepen - JRCharney</a></dt>
-                <dd>My Codepen Profile, a better place to see some of my HTML/CSS/JavaScript demos.</dd>
-                <dt><a href="https://www.linkedin.com/in/jasoncharney/">LinkedIn - Jason Charney</a></dt>
-                <dd>My LinkedIn profile.</dd>
-            </dl>
-        </section>
+      <section id="about" class="card">
+        <h2>About Me</h2>
+        <p>
+          What else can I say about myself? I am a web
+          developer/programmer/computer nerd.
+        </p>
+        <p>
+          The only reason I haven't been hired is because I know what the going
+          pay rate is for the job, I see how employers flinch when I tell them
+          how much it will cost to do things, and I watch as projects die when I
+          ask them to provide me media assets (videos, pictures, even written
+          content) that they need to make their website a reality but never do
+          it. Yet somehow the position turns from "web developer" into "social
+          media manager" as if I'm going to spend my ever waking hour updating
+          their social media profile when Facebook has a flawless interface that
+          they should be able to use.
+        </p>
+        <p>
+          My point is, you just can't simply hire a computer jockey, expect them
+          to write a website without providing adequate content to put on it.
+          Also, employers need to stop trying to con web developerss into being
+          an independent contractors, or string out the job indefintely by
+          making them a "social media manager", and expect them to paid in
+          gratitude.
+        </p>
+        <p>
+          If It were up to me, web developers would have unionized back in the
+          late 1990s, eschewed independent contracting and "the gig economy",
+          and preserved search engine website from being taken over by bumbling
+          corporate executives and hegemonic billionaires who've eliminated any
+          diversity and fair competition in this industry.
+        </p>
+        <p>
+          This would also squash any accusations of political bias claiming "Big
+          Tech is trying to silence us" when
+          <a
+            href="https://www.kxan.com/news/texas-politics/do-facebook-and-twitter-silence-conservatives-data-shows-they-actually-dominate/"
+            >the data proves that to be patently false</a
+          >,
+          <a
+            href="https://www.axios.com/2021/02/01/nyu-conservative-claims-tech-bias-disinformation"
+            >a form of disinformation</a
+          >, and
+          <a
+            href="https://www.cartercenter.org/resources/pdfs/news/peace_publications/democracy/the-big-lie-and-big-tech.pdf"
+            >part of "The Big Lie"</a
+          >. Frankly, the problem isn't that the people who claim "Big Tech is
+          trying to censor us", but that their policies just suck, everyone is
+          sick of their crap, and it is being tuned out because nobody wants it.
+        </p>
+        <p>
+          <strong
+            >The search engines are doing what they are designed to do: putting
+            the results that are in high demand on top and the ones that people
+            aren't interested in down at the bottom.</strong
+          >
+          And if their <em>promoted</em> "content" (advertisements) isn't being
+          clicked on, despite the billions of dollars being spent to try and
+          influence people, its because nobody is interested in that too.
+        </p>
+        <p>
+          There needs to be a major attitude adjustment and the infantile people
+          whose greed is not satisfied with having the majority of the influence
+          need to be replace with responsible mature adults.
+        </p>
+        <p>
+          So quit making excuses for not hiring people either because of costs
+          or the polluted political atmosphere, and hire them for what they are
+          worth!
+        </p>
+      </section>
+      <section id="work" class="card">
+        <h2>My Previous Work</h2>
+        <blockquote>
+          <strong>Note:</strong> I haven't deployed a whole lot of stuff yet,
+          but as this course progresses, some of the older stuff will be
+          replaced with the newer stuff that should be deployed on my Github
+          pages.
+        </blockquote>
+        <!-- TODO: I wonder if I should use some of my Codepen demos?  -->
+        <!-- TODO: What if I used a JSON file? -->
+        <div class="gallery">
+          <div class="project">
+            <figure>
+              <a href="https://masonmo25.github.io/Night-Out/"
+                ><img
+                  src="assets/images/Night_Out.jpg"
+                  alt="Night Out"
+                  class="thumb"
+              /></a>
+              <figcaption>
+                <a href="https://masonmo25.github.io/Night-Out/">Night Out</a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://jrcharney.github.io/the-weather-dashboard/"
+                ><img
+                  src="assets/images/The_Weather_Dashboard.png"
+                  alt="The Weather Dashboard"
+                  class="thumb"
+              /></a>
+              <figcaption>
+                <a href="https://jrcharney.github.io/the-weather-dashboard/"
+                  >The Weather Dashboard</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://jrcharney.github.io/password-generator/"
+                ><img
+                  src="assets/images/password_generator.png"
+                  alt="Password Generator"
+                  class="thumb"
+              /></a>
+              <figcaption>
+                <a href="https://jrcharney.github.io/password-generator/"
+                  >Password Generator</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://github.com/jrcharney/ArchWSLPlusPlus"
+                ><img
+                  src="assets/images/ArchWSL.png"
+                  alt="ArchWSL++"
+                  class="thumb"
+              /></a>
+              <figcaption>
+                <a href="https://github.com/jrcharney/ArchWSLPlusPlus"
+                  >ArchWSL++</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://github.com/jrcharney/hacktop"
+                ><img
+                  src="assets/images/hacktop.jpg"
+                  alt="Hacktop"
+                  class="thumb"
+              /></a>
+              <figcaption>
+                <a href="https://github.com/jrcharney/hacktop">Hacktop</a>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- I haven't deployed too many projects yet, so have some Java projects -->
+          <div class="project">
+            <figure>
+              <a href="https://github.com/jrcharney/java-web-development"
+                ><img src="assets/images/java.jpg" alt="Java" class="thumb"
+              /></a>
+              <figcaption>
+                <a href="https://github.com/jrcharney/java-web-development"
+                  >Java Web Development</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://github.com/jrcharney/java-web-dev-techjobs-mvc"
+                ><img src="assets/images/java.jpg" alt="Java" class="thumb"
+              /></a>
+              <figcaption>
+                <a href="https://github.com/jrcharney/java-web-dev-techjobs-mvc"
+                  >Tech Jobs: <abbr title="Model-View-Control">MVC</abbr></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project">
+            <figure>
+              <a
+                href="https://github.com/jrcharney/java-web-dev-techjobs-authentication"
+                ><img src="assets/images/java.jpg" alt="Java" class="thumb"
+              /></a>
+              <figcaption>
+                <a
+                  href="https://github.com/jrcharney/java-web-dev-techjobs-authentication"
+                  >Tech Jobs: Authentication</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://github.com/jrcharney/java-web-dev-techjobs-oo"
+                ><img src="assets/images/java.jpg" alt="Java" class="thumb"
+              /></a>
+              <figcaption>
+                <a href="https://github.com/jrcharney/java-web-dev-techjobs-oo"
+                  >Tech Jobs: <abbr title="Object Oriented">OO</abbr></a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project">
+            <figure>
+              <a
+                href="https://github.com/jrcharney/java-web-dev-techjobs-persistent"
+                ><img src="assets/images/java.jpg" alt="Java" class="thumb"
+              /></a>
+              <figcaption>
+                <a
+                  href="https://github.com/jrcharney/java-web-dev-techjobs-persistent"
+                  >Tech Jobs: Persistent</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project">
+            <figure>
+              <a href="https://github.com/jrcharney/techjobs-console-java"
+                ><img src="assets/images/java.jpg" alt="Java" class="thumb"
+              /></a>
+              <figcaption>
+                <a href="https://github.com/jrcharney/techjobs-console-java"
+                  >Tech Jobs: Console</a
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="card">
+        <h2>Get in Touch</h2>
+        <p>
+          I generally do not post my e-mail directly on my sites for security
+          reasons. However, you can reach out to me via social media.
+        </p>
+        <!-- TODO: Should I consider thumbnails for these links too? -->
+        <dl>
+          <dt><a href="https://www.jrcharney.com/">JRCharney.com</a></dt>
+          <dd>My personal homepage. It hasn't been updated in a while.</dd>
+          <dt><a href="https://jrcharney.github.io">JRCharney.Github.io</a></dt>
+          <dd>My Github Pages Site, currently being reoganized.</dd>
+          <dt><a href="https://github.com/jrcharney">Github - JRCharney</a></dt>
+          <dd>
+            My Github Profile, probably a better place to see my previous work.
+          </dd>
+          <dt>
+            <a href="https://codepen.io/jrcharney">Codepen - JRCharney</a>
+          </dt>
+          <dd>
+            My Codepen Profile, a better place to see some of my
+            HTML/CSS/JavaScript demos.
+          </dd>
+          <dt>
+            <a href="https://www.linkedin.com/in/jasoncharney/"
+              >LinkedIn - Jason Charney</a
+            >
+          </dt>
+          <dd>My LinkedIn profile.</dd>
+        </dl>
+      </section>
     </main>
     <footer>
+      <section>
         <section>
-            <section>
-                <h3>Links</h3>
-                <ul>
-                    <li><a href="https://jrcharney.github.io/">Home</a></li>
-                    <li><a href="https://github.com/jrcharney/">Github</a></li>
-                    <li><a href="https://codepen.io/jrcharney/">CodePen</a></li>
-                    <li><a href="https://dev.to/jrcharney/">Dev.to</a></li>
-                </ul>
-            </section>
-            <!-- TODO: veritcal hr -->
-            <section></section>
+          <h3>Links</h3>
+          <ul>
+            <li><a href="https://jrcharney.github.io/">Home</a></li>
+            <li><a href="https://github.com/jrcharney/">Github</a></li>
+            <li><a href="https://codepen.io/jrcharney/">CodePen</a></li>
+            <li><a href="https://dev.to/jrcharney/">Dev.to</a></li>
+          </ul>
         </section>
-        <section>
-            <p>&copy; 2022 | A JRCharney Production | <img src="assets/images/US-United-States-Flag-icon.png" alt="US Flag" width="16px" height="16px"> Coded in America</p>
-        </section>
+        <!-- TODO: veritcal hr -->
+        <section></section>
+      </section>
+      <section>
+        <p>
+          &copy; 2022 | A JRCharney Production |
+          <img
+            src="assets/images/US-United-States-Flag-icon.png"
+            alt="US Flag"
+            width="16px"
+            height="16px"
+          />
+          Coded in America
+        </p>
+      </section>
     </footer>
-</body>
+  </body>
 </html>

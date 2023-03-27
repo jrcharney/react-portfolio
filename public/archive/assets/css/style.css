@@ -4,12 +4,12 @@
  * TODO: Add :focus case for :hover items.
  * TODO: set up our colors for a theme. @import url("themes/pumpkinspice.css");
  */
- /* CSS Import rules need to be at the top. */
- @import url("global.css");     /* Stuff that applies to everyone */
- @import url("queries.css");    /* Stuff for media queries and RWD */
- /* TODO: Probably should put my media quieres in a file to keep things in order. */
- @import url("header.css");     /* Stuff that goes in the header */
- @import url("navbar.css");     /* Stuff that goes in the nav */
- @import url("main.css");       /* Stuff that goes in the main */
- @import url("footer.css");     /* Stuff that goes in the footer */
- @import url("gallery.css");    /* Stuff for displaying photos or projects */
+/* CSS Import rules need to be at the top. */
+@import url("global.css"); /* Stuff that applies to everyone */
+@import url("queries.css"); /* Stuff for media queries and RWD */
+/* TODO: Probably should put my media quieres in a file to keep things in order. */
+@import url("header.css"); /* Stuff that goes in the header */
+@import url("navbar.css"); /* Stuff that goes in the nav */
+@import url("main.css"); /* Stuff that goes in the main */
+@import url("footer.css"); /* Stuff that goes in the footer */
+@import url("gallery.css"); /* Stuff for displaying photos or projects */

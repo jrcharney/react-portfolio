@@ -2,30 +2,30 @@
  * Info: All the styles for the footer element
  */
 footer {
-    background-color: #B70;
-    font-size: 10pt;
-    border-radius: 5px;
+  background-color: #b70;
+  font-size: 10pt;
+  border-radius: 5px;
 }
 
 footer > section {
-    padding-left: 3px;
-    padding-right: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 footer a[href]:link {
-    color: #efefef;
+  color: #efefef;
 }
 footer a[href]:visited {
-    color: #dedede;
+  color: #dedede;
 }
 footer a[href]:active {
-    color: #ffffff;
+  color: #ffffff;
 }
 footer a[href]:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 footer > section:last-child {
-    background-color: #111;
-    color: #fff;
+  background-color: #111;
+  color: #fff;
 }
