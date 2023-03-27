@@ -2,6 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -37,7 +38,9 @@
   },
   "devDependencies": {
     "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react": "^7.32.2",
+    "jest": "^29.5.0",
     "prettier": "2.8.4"
   }
 }
