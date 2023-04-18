@@ -1,0 +1,29 @@
+{
+    "sections" : [
+        {
+            "name": "Links",
+            "links" : [
+                {
+                    "to": "https://www.jrcharney.com/",
+                    "text": "Home"
+                },
+                {
+                    "to": "https://jrcharney.github.io/",
+                    "text": "GitPages"
+                },
+                {
+                    "to": "https://github.com/jrcharney/",
+                    "text": "Github"
+                },
+                {
+                    "to": "https://codepen.io/jrcharney/",
+                    "text": "CodePen"
+                },
+                {
+                    "to": "https://dev.to/jrcharney/",
+                    "text": "Dev.to"
+                }
+            ]
+        }
+    ]
+}

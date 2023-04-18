@@ -1,0 +1,27 @@
+[
+    {
+        "name": "JRCharney.com",
+        "to": "https://www.jrcharney.com/",
+        "description": "My personal homepage. It hasn't been updated in a while."
+    },
+    {
+        "name": "JRCharney.Github.io",
+        "to": "https://jrcharney.github.io/",
+        "description": "My Github Pages Site, currently being reoganized."
+    },
+    {
+        "name": "Github - JRCharney",
+        "to": "https://github.com/jrcharney",
+        "description": "My Github Profile, probably a better place to see my previous work."
+    },
+    {
+        "name": "Codepen - JRCharney",
+        "to": "https://codepen.io/jrcharney",
+        "description": "My Codepen Profile, a better place to see some of my HTML/CSS/JavaScript demos."
+    },
+    {
+        "name": "LinkedIn - Jason Charney",
+        "to": "https://www.linkedin.com/in/jasoncharney/",
+        "description": "My LinkedIn profile"
+    }
+]

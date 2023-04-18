@@ -1,0 +1,218 @@
+[
+    {
+        "name": "StaffEase",
+        "toProject": "https://main--precious-raindrop-8940e4.netlify.app/",
+        "screenshot": "assets/images/stafease_business_registration.png",
+        "alt": "StaffEase",
+        "toRepo": "https://github.com/itsamish01/StaffEase",
+        "notes": ""
+    },
+    {
+        "name": "Redux Store (Extra Credit)",
+        "toProject": "",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "",
+        "notes": "Module 22 - State, Redux, Extra Credit -- Deployment/Incomplete"
+    },
+    {
+        "name": "Bookle (Book Search Engine)",
+        "toProject": "https://github.com/jrcharney/bookle",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/bookle",
+        "notes": "Module 21 - MERN, MongoDB, GraphQL, JWT, Apollo Server, Heroku -- Deployment/Incomplete"
+    },
+    {
+        "name": "React Portfolio",
+        "toProject": "https://jrcharney.github.io/",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/react-portfolio",
+        "notes": "Module 20 - React -- Incomplete"
+    },
+    {
+        "name": "PWAVIM",
+        "toProject": "https://pwavim.herokuapp.com/",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/pwavim",
+        "notes": "Module 19 - PWA, Client/Server -- Deployment/Incomplete"
+    },
+    {
+        "name": "Social Media API",
+        "toProject": "https://github.com/jrcharney/smapi",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/smapi",
+        "notes": "Module 18 - MongoDB, mongoose, CRUD, Insomina -- Incomplete"
+    },
+    {
+        "name": "Regular Expression (Gist)",
+        "toProject": "https://gist.github.com/jrcharney/3528845ad0678b043cd1b067b83ced23",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://gist.github.com/jrcharney/3528845ad0678b043cd1b067b83ced23",
+        "notes": "Module 17 - Gist"
+    },
+    {
+        "name": "Book Club",
+        "toProject": "https://wustlbookclub.herokuapp.com/",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/BookClub/",
+        "notes": "Project 2 - CRUD, Sequelize, Heroku -- Deployment"
+    },
+    {
+        "name": "Tech Blog",
+        "toProject": "https://github.com/jrcharney/tech-blog",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/tech-blog",
+        "notes": "Module 14 - MISSING! MVC"
+    },
+    {
+        "name": "E-Commerce ORM Back End",
+        "toProject": "https://github.com/jrcharney/ORM-Back-End",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/ORM-Back-End",
+        "notes": "Module 13 - MISSING! Need to Completely Redo, Express.js, MySQL, Sequelize, Insomnia, Heroku?"
+    },
+    {
+        "name": "Employee Tracker",
+        "toProject": "https://github.com/jrcharney/employee-tracker",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/employee-tracker",
+        "notes": "Module 12 - Need to Completely Redo, Inquirer, MySQL, Heroku?"
+    },
+    {
+        "name": "Note Taker",
+        "toProject": "https://github.com/jrcharney/note-taker",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/note-taker",
+        "notes": "Module 11 - Need to Completely Redo, Express.js, Heroku"
+    },
+    {
+        "name": "Team Profile Generator",
+        "toProject": "https://github.com/jrcharney/team-profile-generator",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/team-profile-generator",
+        "notes": "Moduel 10 - Need to Redo, Inquirer"
+    },
+    {
+        "name": "Professional README Generator",
+        "toProject": "https://github.com/jrcharney/pro-readme-generator",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/pro-readme-generator",
+        "notes": "Module 9 - Probably should make a page, Need a Screenshot"
+    },
+    {
+        "name": "Night Out",
+        "toProject": "https://masonmo25.github.io/Night-Out/",
+        "screenshot": "assets/images/Night_Out.jpg",
+        "alt": "Night Out",
+        "toRepo": "https://github.com/masonMO25/Night-Out/",
+        "notes": "Project 1 - TODO: Need to make my own fork?"
+    },
+    {
+        "name": "The Weather Dashboard",
+        "toProject": "https://jrcharney.github.io/the-weather-dashboard/",
+        "screenshot": "assets/images/The_Weather_Dashboard.png",
+        "alt": "The Weather Dashboard",
+        "toRepo": "https://github.com/jrcharney/the-weather-dashboard",
+        "notes": "Module 6 - Want to make another version that uses the NWS API"
+    },
+    {
+        "name": "Work Day Scheduler",
+        "toProject": "https://jrcharney.github.io/work-day-scheduler/",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/work-day-scheduler/",
+        "notes": "Module 5 - Need to Redo"
+    },
+    {
+        "name": "Code Quiz",
+        "toProject": "https://jrcharney.github.io/code-quiz/",
+        "screenshot": "assets/images/Coming_Soon.png",
+        "alt": "Coming Soon",
+        "toRepo": "https://github.com/jrcharney/code-quiz",
+        "notes": "Module 4 - Need to Redo"
+    },
+    {
+        "name": "Password Generator",
+        "toProject": "https://jrcharney.github.io/password-generator/",
+        "screenshot": "assets/images/password_generator.png",
+        "alt": "Password Generator",
+        "toRepo": "https://github.com/jrcharney/password-generator",
+        "notes": "Module 3"
+    },
+    {
+        "name": "ArchWSL++",
+        "toProject": "https://github.com/jrcharney/ArchWSLPlusPlus",
+        "screenshot": "assets/images/ArchWSL.png",
+        "alt": "ArchWSL++",
+        "toRepo": "https://github.com/jrcharney/ArchWSLPlusPlus",
+        "notes": ""
+    },
+    {
+        "name": "Hacktop",
+        "toProject": "https://github.com/jrcharney/hacktop",
+        "screenshot": "assets/images/hacktop.jpg",
+        "alt": "Hacktop",
+        "toRepo": "https://github.com/jrcharney/hacktop",
+        "notes": ""
+    },
+    {
+        "name": "Java Web Development",
+        "toProject": "https://github.com/jrcharney/java-web-development",
+        "screenshot": "assets/images/java.jpg",
+        "alt": "Java",
+        "toRepo": "https://github.com/jrcharney/java-web-development",
+        "notes": ""
+    },
+    {
+        "name": "Tech Jobs: <abbr title=\"Model-View-Control\">MVC</abbr>",
+        "toProject": "https://github.com/jrcharney/java-web-dev-techjobs-mvc",
+        "screenshot": "assets/images/java.jpg",
+        "alt": "Java",
+        "toRepo": "https://github.com/jrcharney/java-web-dev-techjobs-mvc",
+        "notes": ""
+    },
+    {
+        "name": "Tech Jobs: Authentication",
+        "toProject": "https://github.com/jrcharney/java-web-dev-techjobs-authentication",
+        "screenshot": "assets/images/java.jpg",
+        "alt": "Java",
+        "toRepo": "https://github.com/jrcharney/java-web-dev-techjobs-authentication",
+        "notes": ""
+    },
+    {
+        "name": "Tech Jobs: <abbr title=\"Object Oriented\">OO</abbr>",
+        "toProject": "https://github.com/jrcharney/java-web-dev-techjobs-oo",
+        "screenshot": "assets/images/java.jpg",
+        "alt": "Java",
+        "toRepo": "https://github.com/jrcharney/java-web-dev-techjobs-oo",
+        "notes": ""
+    },
+    {
+        "name": "Tech Jobs: Persistent",
+        "toProject": "https://github.com/jrcharney/java-web-dev-techjobs-persistent",
+        "screenshot": "assets/images/java.jpg",
+        "alt": "Java",
+        "toRepo": "https://github.com/jrcharney/java-web-dev-techjobs-persistent",
+        "notes": ""
+    },
+    {
+        "name": "Tech Jobs: Console",
+        "toProject": "https://github.com/jrcharney/techjobs-console-java",
+        "screenshot": "assets/images/java.jpg",
+        "alt": "Java",
+        "toRepo": "https://github.com/jrcharney/techjobs-console-java",
+        "notes": ""
+    }
+]
